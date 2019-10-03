@@ -206,9 +206,7 @@ function disableSearchButton() {
 
 
 /*
-    ###############################################
-    ################### PART 2 ####################
-    ###############################################
+  Part 2
 */
 function uncheckFavorite() {
     $('#favorite-only').prop('checked', false);
