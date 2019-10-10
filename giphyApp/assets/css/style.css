@@ -1,11 +1,11 @@
 body {
-    background-color: #45454d;
+    background-color: black;
 }
 h1 {
     text-align: center;
     margin-top: 1.5em;
     margin-bottom: .9em;
-    text-shadow: 3px 3px #ff4893;
+    text-shadow: 3px 3px orange;
     font-weight: 800;
 }
 
@@ -31,7 +31,7 @@ form {
 
 #clear-results, #submit-button{
     margin-left: .5em;
-    background-color: #ff4893;
+    background-color: red;
     border: 1px solid #fff1e9;
 }
 
@@ -57,7 +57,7 @@ form {
 .giphy {
     border: 1px solid #ffd5d5;
     border-radius: .5em;
-    border-bottom: .5em solid #ff4893;
+    border-bottom: .5em solid red;
     position: relative;
     overflow: hidden;
     margin: 0;
@@ -87,7 +87,7 @@ form {
     z-index: 1;
     transform: translate(-50%, 0);
     left: 50%;
-    background-color: #ff4893;
+    background-color: red;
     padding: 1em;
     border-radius: 50%;
     color: #fff1e9;
@@ -104,7 +104,7 @@ form {
     padding: .5em;
     cursor: pointer;
     border-bottom-left-radius: .5em;
-    background-color: #ff4893;
+    background-color: red;
 }
 
 
@@ -133,11 +133,11 @@ form {
 
 
 .active {
-    background-color: #ff4893;
+    background-color: red;
 }
 
 .buttons:hover {
-    background-color: #ff4893;
+    background-color: red;
 }
 
 .buttons button {
